@@ -1,0 +1,23 @@
+
+URL:
+https://github.com/alosaur/alosaur/blob/master/mod.ts
+
+- **Area**: these are the modules of your application.
+- **Controller**: are responsible for controlling the flow of the application execution.
+- **Middleware**: provide a convenient mechanism for filtering HTTP requests entering your application.
+- **Hooks**: middleware for controller or/and actions.
+- **Decorators**: for query, cookie, parametrs, routes and etc.
+- **Dependency Injection**: for all controllers by default from microsoft/TSyringe ().
+
+Annotations:
+- @Area
+- @QueryParam
+- @Param param from url: /:id
+- @Body
+- @Cookie
+- @Req
+- @Res
+- @Middleware with regex route
+- @UseHook for contoller and actions
+- @Cache cache to actions {duration: number} number in ms
+
